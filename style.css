@@ -34,9 +34,11 @@ button:hover{
  background-color:rgb(44, 207, 252) ;
 }
 footer{
-  position: absolute;
+ position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
+
 }
 
