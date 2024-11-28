@@ -1,0 +1,39 @@
+body{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+ background-image: url(./watch.jpg);
+ background-size: cover;
+}
+.timer{
+  text-align: center;
+}
+#time{
+  font-size: 8rem;
+ 
+  font-weight: bold;
+  margin-bottom: 30px;
+
+}
+
+button{
+  padding: 10px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+button:hover{
+ box-shadow: 0 0 15px 4px rgb(44, 207, 252);
+ background-color:rgb(44, 207, 252) ;
+}
+footer{
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
